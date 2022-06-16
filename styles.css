@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Medula+One&family=Schoolbell&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Purple+Purse&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  text-align: center;
+    background: #111;
+}
+
+.container {
+  background: linear-gradient(
+    130deg,#ff7a18,#af002d 41.07% 76.05%);
+ 
+  width: 95vw;
+  max-width: 481px;
+  padding: 2rem;
+  border-radius: 0.25rem;
+  background-size: cover;
+ 
+
+
+}
+
+.avatar {
+  width: 5rem;
+  object-fit: cover;
+  
+}
+
+#s{
+  font-size: 85px;
+}
+h3{
+  color: whitesmoke;
+  font-size: 40px;
+  font-family: 'Purple Purse', cursive;
+}
+
+h5 {
+  color: whitesmoke;
+  font-size: 18px;
+  letter-spacing: 2px;
+
+}
+
+.links-block {
+  margin-top: 0.5rem;
+}
+
+.link {
+  text-transform: uppercase;
+  text-decoration: none;
+  display: block;
+  color: #192e4b;
+  /* color: #ffff; */
+  background: white;
+  margin: 1.75rem 0;
+  padding: 0.5rem;
+  font-weight: bold;
+  outline: 2px solid whitesmoke;
+  outline-offset: 4px;
+  letter-spacing: 2px;
+  transition: all 0.3s linear;
+}
+
+.link:hover {
+  background: transparent;
+  color: white;
+}
+
+.social-links {
+  display: flex;
+  gap: 1.25rem;
+  justify-content: center;
+}
+
+.social-link {
+  font-size: 1.75rem;
+  color: whitesmoke;
+  transition: all 0.3s linear;
+}
+.social-link:hover {
+  transform: scale(1.1);
+  color: white;
+}
